@@ -1,4 +1,2 @@
 # JRS
-Hello hello
-whoop
-ebrnhm,to
+Aight so hierso kan ons info oor alles sit
