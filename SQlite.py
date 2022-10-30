@@ -30,4 +30,5 @@ c.execute("INSERT INTO employees VALUES ("+name+", "+surname+", "+age+", "+occup
 
 conn.commit()
 #screw almal
+#wowie wowie
 #conn.close()
