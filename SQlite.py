@@ -1,7 +1,12 @@
 import sqlite3 as sq
-import employees
+from employees import employee
 
-getinput = employees()
+getinput = employee()
+
+name = getinput.name
+surname = getinput.surname
+age = getinput.age
+occupation = getinput.occupation 
 
 
 
@@ -18,7 +23,7 @@ c = conn.cursor()
 #     )"""
 # )
 
-c.execute("INSERT INTO employees VALUES ('mark', 20, 1.9)")
+c.execute("INSERT INTO employees VALUES (name, surname, age, occupation, ?)")
 
 conn.commit()
 
