@@ -29,5 +29,5 @@ c = conn.cursor()
 c.execute("INSERT INTO employees VALUES ("+name+", "+surname+", "+age+", "+occupation+", 'email@gmail.com')")
 
 conn.commit()
-
+#screw almal
 #conn.close()
