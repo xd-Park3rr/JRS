@@ -24,7 +24,7 @@ DD/MM/YYYY\n""")
         return output
 
     def save(self):
-        employee_file = open("C:\\Users\\Hendrik\\OneDrive\\Documents\\Coding 1\\employees.csv", "a")
+        employee_file = open("C:\Users\User\Documents\Software Engineering\Projects\Python\JRS", "a")
         employee_file.write(self.getoutput() +"\n")
         employee_file.close()
   
