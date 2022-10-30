@@ -3,6 +3,8 @@ from employees import employee
 
 getinput = employee()
 
+getinput.getalldetails()
+
 name = getinput.name
 surname = getinput.surname
 age = getinput.age
@@ -23,7 +25,8 @@ c = conn.cursor()
 #     )"""
 # )
 
-c.execute("INSERT INTO employees VALUES (name, surname, age, occupation, ?)")
+# c.execute("INSERT INTO employees VALUES (name, surname, age, occupation, ?)")
+c.execute("INSERT INTO employees VALUES ("+name+", "+surname+", "+age+", "+occupation+", 'email@gmail.com')")
 
 conn.commit()
 
